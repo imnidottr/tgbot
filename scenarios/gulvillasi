@@ -1,0 +1,348 @@
+{
+  "title": "🌸 Solgun Gül Villası – Pasif Bir Femboy'un Uzun Gecesi",
+  "start": "uyanış",
+  "nodes": {
+
+    "uyanış": {
+      "text": "Gözlerin yavaşça açılıyor. Tavanın süslemeleri bulanık. Bir an nerede olduğunu hatırlamıyorsun. Sonra vücudundaki hafif sızı, boynundaki iz ve bacaklarının arasındaki nemli his geri geliyor.\n\nDün gece… gerçekten oldu mu?\n\nKalbin hızla çarpıyor. Yorganın altında çıplaksın. Yanındaki yastıkta hâlâ onun kokusu var. Ağır, erkeksi, biraz da pahalı bir parfüm. Burnuna geldiğinde midende garip bir sıcaklık yayılıyor. Utanıyorsun. Aynı anda bacaklarını birbirine sıkma isteği de geliyor.\n\nTelefonun titreşiyor. Ekranda isimsiz bir numara:\n\n“Bu gece yine gel. Kapı açık. İstersen… daha derine inebiliriz.”\n\nMesajı okurken parmakların titriyor. Aklından bir sürü ses geçiyor: “Gitme.” “Zaten dün çok ileri gittin.” “Ama… istemiyorum mu gerçekten?”",
+      "choices": [
+        {
+          "text": "Mesajı cevaplamadan telefonu kapat ve yatağa gömül",
+          "next": "tereddut",
+          "set": { "korku": 1, "utangaçlik": 1 }
+        },
+        {
+          "text": "Parmakların titreyerek sadece ‘tamam’ yaz",
+          "next": "yola_cikis",
+          "set": { "itaat": 1, "arzu": 1 }
+        },
+        {
+          "text": "Uzun uzun bakıp sonra ‘geleceğim… ama yavaş olsun’ yaz",
+          "next": "yola_cikis",
+          "set": { "arzu": 1, "merak": 1 }
+        }
+      ]
+    },
+
+    "tereddut": {
+      "text": "Yatağa kıvrılıyorsun. Yorganı başına çekiyorsun. Kalbin hâlâ hızlı. Gözlerini kapatıyorsun ama zihnin dinlenmiyor.\n\nDün geceki anlar film şeridi gibi geçiyor: Kapıyı çaldığın an, onun seni ilk kez süzdüğü bakış, dizlerinin nasıl titrediği, emir verdiğinde vücudunun nasıl istemsizce gerildiği…\n\nBir elin farkında olmadan karnından aşağı iniyor. Daha fazla gitmeden durduruyorsun kendini. Yanakların yanıyor.\n\n“Ben… böyle biri miyim?” diye fısıldıyorsun karanlığa.\n\nTelefon yine titreşiyor. Bu sefer tek kelime:\n“Seni bekliyorum, küçük.”",
+      "choices": [
+        {
+          "text": "Direncini kırıp ayağa kalk ve hazırlan",
+          "next": "yola_cikis",
+          "set": { "itaat": 1, "arzu": 2 }
+        },
+        {
+          "text": "Biraz daha yatakta kal, sonra yine de gitmeye karar ver",
+          "next": "yola_cikis",
+          "set": { "utangaçlik": 1, "arzu": 1 }
+        },
+        {
+          "text": "Mesajı sil ve yastığa gömül (bu gece gitmeyeceksin)",
+          "next": "vazgecme_sonu"
+        }
+      ]
+    },
+
+    "yola_cikis": {
+      "text": "Ayağa kalkıyorsun. Bacakların hâlâ biraz yumuşak. Dolaba gidip ne giyeceğini düşünürken parmakların bilerek en feminen parçalara uzanıyor. Dün gece giydiğin şeylerin çoğu orada kalmıştı. Bu sefer daha bilinçli seçiyorsun.\n\nAynanın karşısına geçiyorsun. Yüzün hâlâ biraz kızarık. Gözlerinin altı hafif mor. Ama bir şey değişmiş. Bakışların… daha uysal.\n\nKendi kendine fısıldıyorsun: “Sadece bir gece daha… sonra karar veririm.”\n\nAma içinin bir köşesi biliyor ki bu cümleyi dün de kurmuştun.",
+      "choices": [
+        {
+          "text": "Çok kısa, oturunca her şeyi belli eden bir etek ve bol bir kazak giy",
+          "next": "villa_yolu",
+          "set": { "feminenlik": 2, "aciklik": 1 }
+        },
+        {
+          "text": "Siyah dar bir tayt ve omuzları açık bir bluz seç",
+          "next": "villa_yolu",
+          "set": { "feminenlik": 1, "aciklik": 2 }
+        },
+        {
+          "text": "Sadece uzun bir montun içine neredeyse hiçbir şey giyme",
+          "next": "villa_yolu",
+          "set": { "aciklik": 3, "itaat": 1 },
+          "requires": { "arzu": 1 }
+        }
+      ]
+    },
+
+    "villa_yolu": {
+      "text": "Taksi seni tepenin eteğinde bırakıyor. Yağmur çiselemeye başlamış. Villa uzaktan loş loş parlıyor. Her adımda kalbin daha hızlı atıyor.\n\n“Dönebilirim hâlâ” diyorsun kendi kendine. Sesin bile inandırıcı çıkmıyor.\n\nKapıya yaklaştıkça ayakların ağırlaşıyor. Demir kapı yine aralık. İçeriden çok hafif bir müzik sızıyor. Kapının yanında bu sefer siyah bir zarf yok. Bunun yerine küçük, el yazısıyla yazılmış bir not var:\n\n“İçeri gir. Konuşma. Sadece bekle.”\n\nNotu okurken boğazın düğümleniyor. Emir net. Ve garip bir şekilde… rahatlatıcı.",
+      "choices": [
+        {
+          "text": "Derin bir nefes alıp kapıyı iterek içeri gir",
+          "next": "giris_holu_uzun",
+          "set": { "cesaret": 1 }
+        },
+        {
+          "text": "Birkaç saniye olduğu yerde kal, titreyen ellerinle kapıyı yavaşça aç",
+          "next": "giris_holu_uzun",
+          "set": { "utangaçlik": 1, "itaat": 1 }
+        },
+        {
+          "text": "Notu cebine koyup eşiğin önünde dizlerinin üzerine çök (içeri girmeden)",
+          "next": "esikte_diz",
+          "set": { "itaat": 2, "pasiflik": 1 },
+          "requires": { "itaat": 1 }
+        }
+      ]
+    },
+
+    "esikte_diz": {
+      "text": "Soğuk taşın üzerinde dizlerin sızlıyor. Başını eğiyorsun. Yağmur saçlarına değiyor. İçeriden ayak sesleri geliyor. Kalbin o kadar hızlı atıyor ki kulaklarında uğultu var.\n\nKapı tamamen açılıyor. Onun ayakkabıları görüş alanına giriyor. Bir süre hiç konuşmuyor. Sadece tepende duruyor.\n\nSonra alçak, sakin bir ses:\n“İyi başlangıç. Kalk ve içeri gel. Gözlerin yerde kalsın.”",
+      "choices": [
+        {
+          "text": "Başını kaldırmadan ayağa kalk ve içeri adım at",
+          "next": "giris_holu_uzun",
+          "set": { "itaat": 2 }
+        },
+        {
+          "text": "Hâlâ titreyen bacaklarınla ayağa kalkmaya çalışırken hafifçe sendeley",
+          "next": "giris_holu_uzun",
+          "set": { "utangaçlik": 1 }
+        }
+      ]
+    },
+
+    "giris_holu_uzun": {
+      "text": "İçerisi dünkinden daha sıcak. Hava ağır, neredeyse tatlı bir koku var. Salonun ortasında o duruyor. Siyah gömlek, kolları dirseğe sıvanmış. Seni süzüyor. Bakışları ağır, acele etmeyen, sanki seni yavaş yavaş yutuyormuş gibi.\n\nBir adım atıyorsun. Sonra bir adım daha. Ayakkabılarının sesi halıda boğuluyor.\n\nO hâlâ konuşmuyor. Sadece bir elini kaldırıp seni yanına çağırıyor.\n\nYanaşırken aklından geçenler: “Kaçsam mı? Hayır… çok geç. Zaten geldim. O zaman… ne kadar dayanabilirim?”\n\nYanına geldiğinde parmaklarını çenenin altına koyup yüzünü yavaşça kaldırıyor. Göz göze gelmek zorunda kalıyorsun. Yanakların ateş gibi.",
+      "choices": [
+        {
+          "text": "Gözlerini kaçırmadan ona bakmaya çalış (ama bakışların hemen yumuşuyor)",
+          "next": "ilk_temas",
+          "set": { "cesaret": 1 }
+        },
+        {
+          "text": "Gözlerini hemen indir ve sadece nefes al",
+          "next": "ilk_temas",
+          "set": { "itaat": 1, "utangaçlik": 1 }
+        },
+        {
+          "text": "Dudaklarını ısırıp hiçbir şey söylemeden bekle",
+          "next": "ilk_temas",
+          "set": { "pasiflik": 1 }
+        }
+      ]
+    },
+
+    "ilk_temas": {
+      "text": "Başparmağı dudağının üzerinden yavaşça geçiyor. Çok hafif bir baskı. Sen istemeden dudaklarını aralıyorsun.\n\n“Dün geceyi hatırlıyor musun?” diye soruyor. Sesi alçak.\n\nCevap vermeden önce boğazını yutkunuyorsun. Sesin çıkmıyor. Sadece başını çok hafif sallıyorsun.\n\nGülümsüyor. “Konuşmana gerek yok. Zaten vücudun her şeyi anlatıyor.”\n\nEli boynundan omzuna, oradan beline iniyor. Montunu yavaşça çıkarıyor. Altında ne kadar az şey olduğunu görünce kaşlarını kaldırıyor ama bir şey demiyor. Sadece parmaklarıyla kumaşın kenarını yokluyor.\n\nSenin içinde iki ses çarpışıyor: Biri “Dur, çok utanç verici” diyor. Diğeri ise çok daha sessiz ve tehlikeli: “Daha fazla… lütfen.”",
+      "choices": [
+        {
+          "text": "Hiçbir şey yapma, sadece onun dokunuşunu hisset",
+          "next": "giyinme_tekrar",
+          "set": { "pasiflik": 2 }
+        },
+        {
+          "text": "Çok hafif ona doğru eğil",
+          "next": "giyinme_tekrar",
+          "set": { "arzu": 1 }
+        },
+        {
+          "text": "‘Lütfen…’ diye neredeyse duyulmayacak kadar fısılda",
+          "next": "giyinme_tekrar",
+          "set": { "itaat": 1, "arzu": 1 }
+        }
+      ]
+    },
+
+    "giyinme_tekrar": {
+      "text": "Seni dün geceki odaya götürüyor. Ayna yine orada. Askılıkta bu sefer sadece iki şey var: İnce, neredeyse şeffaf beyaz bir gecelik ve siyah, çok dar bir harness.\n\n“Seç” diyor. “Ya da hiçbiri. Karar senin… şimdilik.”\n\nAynaya bakıyorsun. Yansımandaki kişi tanıdık ama aynı zamanda yabancı. Yanakları kızarmış, gözleri nemli, dudakları aralık. Ve en kötüsü… korktuğu kadar da istekli görünen bir ifade.",
+      "choices": [
+        {
+          "text": "Beyaz geceliği al ve yavaşça giy",
+          "next": "ayna_karsisi",
+          "set": { "feminenlik": 2, "aciklik": 2 }
+        },
+        {
+          "text": "Siyah harness’i seç",
+          "next": "ayna_karsisi",
+          "set": { "aciklik": 3, "itaat": 1 }
+        },
+        {
+          "text": "İkisini de geri çevirip sadece çoraplarını bırak",
+          "next": "ayna_karsisi",
+          "set": { "aciklik": 3, "pasiflik": 1 },
+          "requires": { "itaat": 2 }
+        }
+      ]
+    },
+
+    "ayna_karsisi": {
+      "text": "Aynanın karşısında duruyorsun. O arkanda. Elleri beline dolanıyor. Çeneni omzuna yaslıyor ve ikiniz de yansımaya bakıyorsunuz.\n\n“Güzel” diyor sadece. Başka bir şey eklemiyor.\n\nSen ise kendi yansımana bakarken garip bir şey hissediyorsun. Utanç var, evet. Ama utancın altında daha ağır, daha sıcak bir şey kıpırdıyor. “Beni böyle görmesini istiyorum” diye bir düşünce geçiyor aklından. Hemen bastırıyorsun. Ama düşünce tamamen silinmiyor.\n\nEli karnından aşağı kayıyor. Duruyor. Bekliyor. Senin ne yapacağını, ya da yapmayacağını test ediyor gibi.",
+      "choices": [
+        {
+          "text": "Ellerini yanlarda tut, hiçbir şey yapma, sadece nefes al",
+          "next": "salon_ikinci",
+          "set": { "pasiflik": 2 }
+        },
+        {
+          "text": "Çok hafif kalçanı ona doğru bastır",
+          "next": "salon_ikinci",
+          "set": { "arzu": 2 }
+        },
+        {
+          "text": "Gözlerini kapatıp ‘dokun…’ diye fısılda",
+          "next": "salon_ikinci",
+          "set": { "itaat": 1, "arzu": 1 }
+        }
+      ]
+    },
+
+    "salon_ikinci": {
+      "text": "Seni tekrar salona götürüyor. Bu sefer kanepe yerine ortadaki geniş, alçak sedire yöneliyor. Yastıklar dağılmış. Seni yavaşça oturtuyor, sonra karşısına geçip dizlerinin üzerine çöküyor. Seninle aynı hizada.\n\nEllerini dizlerinin üzerine koyuyor. Parmakları uyluğunun içine doğru çok yavaş ilerliyor.\n\n“Bu gece üç yol var yine” diyor. “Ama sen artık dünkü gibi değilsin. Daha… açık’sın. O yüzden seçimlerin de daha ağır olacak.”\n\nKartları bu sefer göstermiyor. Sadece bakıyor.\n\n“Konuş. Ne istiyorsun, küçük?”",
+      "choices": [
+        {
+          "text": "Uzun bir sessizlikten sonra ‘ne isterseniz…’ de",
+          "next": "yumusak_uzun",
+          "set": { "itaat": 2, "pasiflik": 1 }
+        },
+        {
+          "text": "‘Kontrol… sizde olsun’ diye fısılda",
+          "next": "kontrol_uzun",
+          "set": { "itaat": 2 }
+        },
+        {
+          "text": "Gözlerini kaçırıp ‘daha fazlasını…’ de",
+          "next": "derin_uzun",
+          "set": { "arzu": 2, "itaat": 1 },
+          "requires": { "arzu": 2 }
+        },
+        {
+          "text": "Cevap veremeden sadece titreyen nefesini duyur",
+          "next": "kontrol_uzun",
+          "set": { "utangaçlik": 2, "pasiflik": 1 }
+        }
+      ]
+    },
+
+    "yumusak_uzun": {
+      "text": "Seni yavaşça yatırıyor. Üzerine eğiliyor ama tam olarak bastırmıyor. Sadece vücudunun sıcaklığını hissettiriyor.\n\nÖpücükleri acele etmiyor. Önce alnına, sonra göz kapaklarına, sonra dudağının kenarına. Her dokunuşta senin biraz daha eridiğini fark ediyor ve buna göre yavaşlıyor.\n\nBir ara kulağına eğilip soruyor:\n“Korkuyor musun hâlâ?”\n\nCevap vermeden önce uzun uzun nefes alıyorsun. Sesin kısık çıkıyor:\n“Evet… ama… kalmak istiyorum.”\n\nGülümsediğini hissediyorsun. “O zaman sadece hisset. Konuşmana gerek yok. Vücudun zaten her şeyi söylüyor.”\n\nElleri her yerde. Ama hiçbir yerde acele yok. Seni açıyor, sonra geri çekiliyor, sonra tekrar yaklaşıyor. Her seferinde biraz daha derine. Senin inlemelerin bile utangaç, yarı boğuk. Sanki ses çıkarmanın bile utanılacak bir şey olduğunu düşünüyormuşsun gibi.",
+      "choices": [
+        {
+          "text": "Ellerini onun sırtına koyup hafifçe tutun",
+          "next": "yumusak_devam_2",
+          "set": { "baglilik": 1 }
+        },
+        {
+          "text": "Kollarını başının üstüne atıp tamamen teslim ol",
+          "next": "yumusak_devam_2",
+          "set": { "pasiflik": 2 }
+        },
+        {
+          "text": "Onun boynuna yüzünü gömüp ‘daha yavaş…’ diye mırıldan",
+          "next": "yumusak_devam_2"
+        }
+      ]
+    },
+
+    "kontrol_uzun": {
+      "text": "Seni yüzüstü çeviriyor. Ellerini belinin arkasında birleştiriyor. Çok sıkmıyor ama bırakmıyor da.\n\n“Bu gece hareket etmeyeceksin” diyor. Sesi hâlâ sakin. “İnleyebilirsin. Ağlayabilirsin. Ama kıpırdama.”\n\nİlk dokunuşta vücudun istemeden geriliyor. O hemen duruyor. Bekliyor. Sen tekrar yumuşayana kadar.\n\nSonra devam ediyor. Her şey çok yavaş. O kadar yavaş ki bazen nefesini tutuyorsun. Bazen de istemeden kalçanı kaldırıyorsun ve o hemen seni yere bastırıyor.\n\n“Hayır” diyor sadece. Tek kelime. Ama o tek kelime omurgandan aşağı inen bir ürperti yaratıyor.\n\nZamanın nasıl geçtiğini bilmiyorsun. Sadece onun nefesini, kendi boğuk seslerini ve ara sıra “iyi çocuk” diye fısıldamasını duyuyorsun. Her ‘iyi çocuk’ta içinin bir yerleri hem utanıyor hem de garip bir şekilde… mutlu oluyor.",
+      "choices": [
+        {
+          "text": "Tamamen bırak kendini, hiçbir direnç gösterme",
+          "next": "kontrol_devam_2",
+          "set": { "pasiflik": 3, "itaat": 2 }
+        },
+        {
+          "text": "Ara sıra istemeden kıpırda ama hemen düzelt",
+          "next": "kontrol_devam_2",
+          "set": { "utangaçlik": 1 }
+        },
+        {
+          "text": "‘Özür dilerim…’ diye fısılda her kıpırdadığında",
+          "next": "kontrol_devam_2",
+          "set": { "itaat": 1, "utangaçlik": 1 }
+        }
+      ]
+    },
+
+    "derin_uzun": {
+      "text": "Seni başka bir odaya götürüyor. Kapıyı kilitliyor. Perdeler kapalı. Sadece tek bir loş lamba yanıyor.\n\nSeni yatağın kenarına oturtuyor. Kendi de karşısına çöküyor. Ellerini dizlerine koyup uzun uzun bakıyor.\n\n“Bana bak” diyor.\n\nBakıyorsun. Bakışların hemen kaçıyor ama o çeneni tutup tekrar baktırıyor.\n\n“Bu gece… senin ne kadar uzağa gidebileceğini göreceğiz. İstemezsen durdurabilirsin. Ama ikimiz de biliyoruz ki… durdurmayacaksın.”\n\nBir şeyler çıkarıyor. Görmene izin veriyor. Sonra yavaşça yaklaşıyor.\n\nİlk an korku. Sonra utanç. Sonra… çok daha derin, neredeyse baş döndürücü bir kabul. Vücudun geriliyor, sonra yavaş yavaş açılıyor. Gözlerin doluyor ama ağlamıyorsun. Sadece nefes alıyorsun. Ve onun sesini dinliyorsun.\n\n“İşte böyle… bırak. Düşünme. Sadece ol.”",
+      "choices": [
+        {
+          "text": "Gözlerini kapatıp tamamen teslim ol",
+          "next": "derin_devam_2",
+          "set": { "pasiflik": 3, "itaat": 3 }
+        },
+        {
+          "text": "Onun gözlerine bakmaya çalışarak devam et",
+          "next": "derin_devam_2",
+          "set": { "cesaret": 1, "arzu": 1 }
+        },
+        {
+          "text": "‘Lütfen… bırakma’ diye boğuk bir sesle fısılda",
+          "next": "derin_devam_2",
+          "set": { "baglilik": 1, "arzu": 2 }
+        }
+      ]
+    },
+
+    "yumusak_devam_2": {
+      "text": "Saatler geçiyor. Ara sıra mola veriyor. Sana su içiriyor. Saçlarını okşuyor. Sonra tekrar başlıyor. Her seferinde biraz daha derine, ama asla acıtmadan, asla acele etmeden.\n\nBir noktada seni kucağına alıyor. Alnını alnına yaslıyor.\n\n“Hâlâ buradasın” diyor. Şaşkın değil. Memnun.\n\nSen cevap vermiyorsun. Sadece onun göğsüne yaslanıp gözlerini kapatıyorsun. İçinde garip bir huzur var. Utanç hâlâ orada… ama artık utancın yanında, ona yaslanan başka bir şey de var.",
+      "choices": [
+        {
+          "text": "‘Kalmak istiyorum’ diye çok sessiz fısılda",
+          "next": "sabah_yumusak",
+          "set": { "baglilik": 2 }
+        },
+        {
+          "text": "Sadece onun gömleğini tutup bırakma",
+          "next": "sabah_yumusak",
+          "set": { "baglilik": 1 }
+        }
+      ]
+    },
+
+    "kontrol_devam_2": {
+      "text": "Gece boyunca seni defalarca bırakıp tekrar alıyor. Her seferinde “hareket etme” kuralını hatırlatıyor. Bir ara seni ayağa kaldırıp aynanın karşısına geçiriyor. Arkadan sarılarak ikinizin yansımasına bakıyor.\n\n“Bak” diyor. “Bu gece ne kadar güzel boyun eğdin.”\n\nYansımana bakıyorsun. Gözlerin kızarık, dudakların şiş, bacakların titriyor. Ve en utanç verici olanı… hâlâ istekli görünüyorsun.\n\nO senin kulağına fısıldıyor: “Yarın da gelecek misin, küçük?”\n\nCevap veremiyorsun. Sadece yutkunuyorsun.",
+      "choices": [
+        {
+          "text": "Başını çok hafif salla",
+          "next": "sabah_kontrol",
+          "set": { "itaat": 2 }
+        },
+        {
+          "text": "‘Bilmiyorum…’ diye fısılda",
+          "next": "sabah_kontrol"
+        }
+      ]
+    },
+
+    "derin_devam_2": {
+      "text": "Bu yol diğerlerinden daha ağır. Daha sessiz. Daha… sahiplenici.\n\nBir noktadan sonra artık düşünceler bile dağınık. Sadece hisler var. Onun elleri, sesi, nefesin, kendi boğuk inlemelerin…\n\nSabaha karşı seni yatağa yatırıyor. Üzerine bir örtü çekiyor. Saçlarını okşarken fısıldıyor:\n\n“Artık buradasın. İstersen gidebilirsin. Ama ikimiz de biliyoruz ki… kolay kolay gidemeyeceksin.”\n\nGözlerin kapanıyor. Uykuya dalmadan son düşündüğün şey, onun kokusunun ne kadar tanıdık geldiği oluyor.",
+      "choices": [
+        {
+          "text": "Uykuya dalmadan önce onun elini tut",
+          "next": "sabah_derin",
+          "set": { "baglilik": 2 }
+        },
+        {
+          "text": "Sadece nefesini dinleyerek uykuya dal",
+          "next": "sabah_derin",
+          "set": { "pasiflik": 1 }
+        }
+      ]
+    },
+
+    "sabah_yumusak": {
+      "text": "Sabah ışığı perdelerden süzülüyor. O hâlâ yanındasın. Uyandığında seni izliyor.\n\n“Günaydın, küçük” diyor. Sesi boğuk.\n\nSana su uzatıyor. Sonra yavaşça saçlarını düzeltiyor.\n\n“Bu gece… çok güzel teslim oldun. İstersen akşam yine gel. İstemezsen… en azından dürüst ol.”\n\nKapıdan çıkarken hâlâ onun kokusu üzerinde. Dışarıdaki hava serin. Ama içindeki sıcaklık bir türlü gitmiyor.",
+      "ending": "Yumuşak ama Derin Bir Bağ – Belki Yarın da…"
+    },
+
+    "sabah_kontrol": {
+      "text": "Seni giydirirken bile emirler veriyor. “Kollarını kaldır.” “Duruşunu düzelt.” “Bana bak.”\n\nHer emre uyuyorsun. Artık düşünmeden. Sanki vücudun öğrendi.\n\nKapıda seni öpmeden uğurluyor. Sadece alnına bir öpücük bırakıyor.\n\n“Yarın aynı saatte. Geç kalma.”\n\nDışarı çıktığında bacakların hâlâ yumuşak. Ve en kötüsü… bir dahaki mesajı sabırsızlıkla beklediğini fark ediyorsun.",
+      "ending": "Kontrollü İtaat – Alışkanlık Başlıyor"
+    },
+
+    "sabah_derin": {
+      "text": "Uyandığında o yok. Ama yastığın üzerinde küçük bir not var.\n\n“Bugün dinlen. Akşam seni tekrar istiyorum. Bu sefer… daha uzun kalacaksın.”\n\nNotu okurken kalbin hızlanıyor. Korku var. Ama korkunun yanında, artık inkar edemediğin bir şey daha var: İstiyorsun.\n\nVillanın kapısını arkalardan kapatıyorsun. Ayakların seni dışarı taşıyor. Ama aklın hâlâ içeride.",
+      "ending": "Derin Teslimiyet – Dönüş Yolu Artık Daha Dar"
+    },
+
+    "vazgecme_sonu": {
+      "text": "Telefonu kapatıyorsun. Yastığa gömülüyorsun. Saatlerce kıpırdamıyorsun.\n\nAma zihnin dinlenmiyor. Her kapalı gözle birlikte dün geceki anlar geri geliyor. Onun sesi, dokunuşu, “küçük” diye hitap edişi…\n\nSabah olduğunda yorgun ve boş hissediyorsun. Sanki bir şey kaçırmışsın gibi.\n\nTelefonun ekranı karanlık. Hiç mesaj yok.\n\nBelki de en doğrusu buydu. Belki de…",
+      "ending": "Vazgeçiş – Ama İçeride Bir Şey Hâlâ Kıtırdı"
+    }
+  }
+}
